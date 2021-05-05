@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F22789D2642D88500FF5BFD /* BaseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22789C2642D88500FF5BFD /* BaseProtocols.swift */; };
+		5F2278A02642DF0000FF5BFD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22789F2642DF0000FF5BFD /* NetworkService.swift */; };
+		5F2278A22642E1D600FF5BFD /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2278A12642E1D600FF5BFD /* Router.swift */; };
 		5FAA39652642935E00DEAC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA39642642935E00DEAC05 /* AppDelegate.swift */; };
 		5FAA39672642935E00DEAC05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA39662642935E00DEAC05 /* SceneDelegate.swift */; };
-		5FAA39692642935E00DEAC05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA39682642935E00DEAC05 /* ViewController.swift */; };
-		5FAA396C2642935E00DEAC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FAA396A2642935E00DEAC05 /* Main.storyboard */; };
 		5FAA396F2642935E00DEAC05 /* funFun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA396D2642935E00DEAC05 /* funFun.xcdatamodeld */; };
 		5FAA39712642935F00DEAC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FAA39702642935F00DEAC05 /* Assets.xcassets */; };
 		5FAA39742642935F00DEAC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FAA39722642935F00DEAC05 /* LaunchScreen.storyboard */; };
+		5FAA3980264293DA00DEAC05 /* MostEmailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA397F264293DA00DEAC05 /* MostEmailedViewController.swift */; };
+		5FAA3987264293FA00DEAC05 /* MostEmailedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA3986264293FA00DEAC05 /* MostEmailedInteractor.swift */; };
+		5FAA398A2642940200DEAC05 /* MostEmailedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA39892642940200DEAC05 /* MostEmailedPresenter.swift */; };
+		5FAA398D2642941800DEAC05 /* MostEmailedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA398C2642941800DEAC05 /* MostEmailedModel.swift */; };
+		5FAA39902642941E00DEAC05 /* MostEmailedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAA398F2642941E00DEAC05 /* MostEmailedRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F22789C2642D88500FF5BFD /* BaseProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProtocols.swift; sourceTree = "<group>"; };
+		5F22789F2642DF0000FF5BFD /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5F2278A12642E1D600FF5BFD /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		5FAA39612642935E00DEAC05 /* funFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FAA39642642935E00DEAC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FAA39662642935E00DEAC05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5FAA39682642935E00DEAC05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5FAA396B2642935E00DEAC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FAA396E2642935E00DEAC05 /* funFun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = funFun.xcdatamodel; sourceTree = "<group>"; };
 		5FAA39702642935F00DEAC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FAA39732642935F00DEAC05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FAA39752642935F00DEAC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FAA397F264293DA00DEAC05 /* MostEmailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostEmailedViewController.swift; sourceTree = "<group>"; };
+		5FAA3986264293FA00DEAC05 /* MostEmailedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostEmailedInteractor.swift; sourceTree = "<group>"; };
+		5FAA39892642940200DEAC05 /* MostEmailedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostEmailedPresenter.swift; sourceTree = "<group>"; };
+		5FAA398C2642941800DEAC05 /* MostEmailedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostEmailedModel.swift; sourceTree = "<group>"; };
+		5FAA398F2642941E00DEAC05 /* MostEmailedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostEmailedRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F22789B2642D87200FF5BFD /* BaseProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				5F22789C2642D88500FF5BFD /* BaseProtocols.swift */,
+			);
+			path = BaseProtocols;
+			sourceTree = "<group>";
+		};
+		5F22789E2642DEF300FF5BFD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5F22789F2642DF0000FF5BFD /* NetworkService.swift */,
+				5F2278A12642E1D600FF5BFD /* Router.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		5FAA39582642935E00DEAC05 = {
 			isa = PBXGroup;
 			children = (
@@ -60,14 +89,27 @@
 			children = (
 				5FAA39642642935E00DEAC05 /* AppDelegate.swift */,
 				5FAA39662642935E00DEAC05 /* SceneDelegate.swift */,
-				5FAA39682642935E00DEAC05 /* ViewController.swift */,
-				5FAA396A2642935E00DEAC05 /* Main.storyboard */,
+				5F22789E2642DEF300FF5BFD /* Networking */,
+				5F22789B2642D87200FF5BFD /* BaseProtocols */,
+				5FAA397E264293C800DEAC05 /* MostEmailed */,
 				5FAA39702642935F00DEAC05 /* Assets.xcassets */,
 				5FAA39722642935F00DEAC05 /* LaunchScreen.storyboard */,
 				5FAA39752642935F00DEAC05 /* Info.plist */,
 				5FAA396D2642935E00DEAC05 /* funFun.xcdatamodeld */,
 			);
 			path = funFun;
+			sourceTree = "<group>";
+		};
+		5FAA397E264293C800DEAC05 /* MostEmailed */ = {
+			isa = PBXGroup;
+			children = (
+				5FAA397F264293DA00DEAC05 /* MostEmailedViewController.swift */,
+				5FAA3986264293FA00DEAC05 /* MostEmailedInteractor.swift */,
+				5FAA39892642940200DEAC05 /* MostEmailedPresenter.swift */,
+				5FAA398C2642941800DEAC05 /* MostEmailedModel.swift */,
+				5FAA398F2642941E00DEAC05 /* MostEmailedRouter.swift */,
+			);
+			path = MostEmailed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +171,6 @@
 			files = (
 				5FAA39742642935F00DEAC05 /* LaunchScreen.storyboard in Resources */,
 				5FAA39712642935F00DEAC05 /* Assets.xcassets in Resources */,
-				5FAA396C2642935E00DEAC05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FAA39692642935E00DEAC05 /* ViewController.swift in Sources */,
+				5F2278A22642E1D600FF5BFD /* Router.swift in Sources */,
+				5F22789D2642D88500FF5BFD /* BaseProtocols.swift in Sources */,
+				5FAA39902642941E00DEAC05 /* MostEmailedRouter.swift in Sources */,
+				5F2278A02642DF0000FF5BFD /* NetworkService.swift in Sources */,
+				5FAA398A2642940200DEAC05 /* MostEmailedPresenter.swift in Sources */,
+				5FAA3980264293DA00DEAC05 /* MostEmailedViewController.swift in Sources */,
+				5FAA398D2642941800DEAC05 /* MostEmailedModel.swift in Sources */,
 				5FAA396F2642935E00DEAC05 /* funFun.xcdatamodeld in Sources */,
+				5FAA3987264293FA00DEAC05 /* MostEmailedInteractor.swift in Sources */,
 				5FAA39652642935E00DEAC05 /* AppDelegate.swift in Sources */,
 				5FAA39672642935E00DEAC05 /* SceneDelegate.swift in Sources */,
 			);
@@ -150,14 +198,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5FAA396A2642935E00DEAC05 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FAA396B2642935E00DEAC05 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5FAA39722642935F00DEAC05 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
